@@ -1,11 +1,48 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {}
+    "net7.0": {
+      "TabelasDinamicas.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/TabelasDinamicas.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TabelasDinamicas.Core.dll": {}
+        }
+      },
+      "TabelasDinamicas.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "TabelasDinamicas.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TabelasDinamicas.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TabelasDinamicas.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "TabelasDinamicas.Core/1.0.0": {
+      "type": "project",
+      "path": "../TabelasDinamicas.Core/TabelasDinamicas.Core.csproj",
+      "msbuildProject": "../TabelasDinamicas.Core/TabelasDinamicas.Core.csproj"
+    },
+    "TabelasDinamicas.Domain/1.0.0": {
+      "type": "project",
+      "path": "../TabelasDinamicas.Domain/TabelasDinamicas.Domain.csproj",
+      "msbuildProject": "../TabelasDinamicas.Domain/TabelasDinamicas.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net7.0": []
+    "net7.0": [
+      "TabelasDinamicas.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\pedro\\.nuget\\packages\\": {},
@@ -38,7 +75,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\pedro\\OneDrive\\Documentos\\Portifolio\\TabelasDinamicas\\TabelasDinamicas\\TabelasDinamicas.Domain\\TabelasDinamicas.Domain.csproj": {
+              "projectPath": "C:\\Users\\pedro\\OneDrive\\Documentos\\Portifolio\\TabelasDinamicas\\TabelasDinamicas\\TabelasDinamicas.Domain\\TabelasDinamicas.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
