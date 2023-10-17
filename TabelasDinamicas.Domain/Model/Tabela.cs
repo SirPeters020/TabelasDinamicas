@@ -22,7 +22,7 @@ public class Tabela : Entity
 
     private readonly List<ComplementoTabela> _complementoTabela;
 
-    public IReadOnlyCollection<ComplementoTabela> CampanhaFase => _complementoTabela;
+    public IReadOnlyCollection<ComplementoTabela> ComplementoTabela => _complementoTabela;
 
     protected Tabela() => _complementoTabela = new List<ComplementoTabela>();
 

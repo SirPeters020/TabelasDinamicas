@@ -1,12 +1,26 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Builders;
+using TabelasDinamicas.Domain.Model;
 
 namespace TabelasDinamicas.Data.Mapping
 {
-    public class ComplementoTabelaMap
+    public class ComplementoTabelaMap : IEntityTypeConfiguration<ComplementoTabela>
     {
+        public void Configure(EntityTypeBuilder<ComplementoTabela> builder)
+        {
+            builder.ToTable("complemento_tabelas", "tabelas_dinamicas");
+
+            builder.HasKey(c => new { c.TabelaId, c.ComplementoId });
+
+            builder.Property(c => c.Ordenacao);
+
+            builder.HasOne(c => c.Complemento)
+                .WithMany(c => c.ComplementoTabela)
+                .HasForeignKey(c => c.ComplementoId);
+
+            builder.HasOne(c => c.Tabela)
+                .WithMany(c => c.ComplementoTabela)
+                .HasForeignKey(c => c.TabelaId);
+        }
     }
 }
