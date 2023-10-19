@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using TabelasDinamicas.Core.Data.Repository;
+using TabelasDinamicas.Domain.Model;
 
 namespace TabelasDinamicas.Domain.Interfaces
 {
-    public interface IEstrategiaRepository
+    public interface IEstrategiaRepository : IRepositoryBasic<Estrategia>
     {
     }
 }

@@ -1,9 +1,10 @@
-﻿using TabelasDinamicas.Core.DomainObjects;
+﻿using TabelasDinamicas.Core.Domain;
+using TabelasDinamicas.Core.DomainObjects;
 using TabelasDinamicas.Domain.ValueObject;
 
 namespace TabelasDinamicas.Domain.Model;
 
-public class Registros : Entity
+public class Registros : Entity, EntityBase
 {
 
     #region [ Propriedades ]
