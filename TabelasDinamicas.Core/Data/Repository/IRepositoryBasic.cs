@@ -21,8 +21,6 @@ namespace TabelasDinamicas.Core.Data.Repository
 
         Task DeleteAsync(object key, CancellationToken cancellationToken = default);
 
-        Task DeleteAsync(Expression<Func<T, bool>> where, CancellationToken cancellationToken = default);
-
         void Update(T item);
 
         Task UpdateAsync(T item, CancellationToken cancellationToken = default);
@@ -30,6 +28,10 @@ namespace TabelasDinamicas.Core.Data.Repository
         void UpdateRange(IEnumerable<T> items);
 
         Task UpdateRangeAsync(IEnumerable<T> items, CancellationToken cancellationToken = default);
+
+        IEnumerable<T> Get();
+
+        Task<IEnumerable<T>> GetAsync();
 
     }
 }
