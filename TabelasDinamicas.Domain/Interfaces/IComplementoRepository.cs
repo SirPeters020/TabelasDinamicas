@@ -3,7 +3,7 @@ using TabelasDinamicas.Domain.Model;
 
 namespace TabelasDinamicas.Domain.Interfaces
 {
-    public interface IComplementoRepository : IRepositoryBasic<ComplementoTabela>
+    public interface IComplementoRepository : IRepositoryBasic<Complemento>
     {
 
     }
