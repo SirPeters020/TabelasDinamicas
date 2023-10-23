@@ -1,8 +1,9 @@
-﻿using TabelasDinamicas.Core.DomainObjects;
+﻿using TabelasDinamicas.Core.Domain;
+using TabelasDinamicas.Core.DomainObjects;
 
 namespace TabelasDinamicas.Domain.Model;
 
-public class Tabela : Entity
+public class Tabela : Entity, EntityBase
 {
     public string Nome { get; private set; }
 
@@ -22,7 +23,7 @@ public class Tabela : Entity
 
     private readonly List<ComplementoTabela> _complementoTabela;
 
-    public IReadOnlyCollection<ComplementoTabela> CampanhaFase => _complementoTabela;
+    public IReadOnlyCollection<ComplementoTabela> ComplementoTabela => _complementoTabela;
 
     protected Tabela() => _complementoTabela = new List<ComplementoTabela>();
 

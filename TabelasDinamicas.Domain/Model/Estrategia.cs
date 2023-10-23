@@ -1,8 +1,9 @@
-﻿using TabelasDinamicas.Core.DomainObjects;
+﻿using TabelasDinamicas.Core.Domain;
+using TabelasDinamicas.Core.DomainObjects;
 
 namespace TabelasDinamicas.Domain.Model;
 
-public class Estrategia : Entity
+public class Estrategia : Entity, EntityBase
 {
 
     public string Nome { get; private set; }

@@ -1,0 +1,15 @@
+C:\Users\pedro\OneDrive\Documentos\Portifolio\TabelasDinamicas\TabelasDinamicas\TabelasDinamicas.Domain\bin\Debug\net7.0\TabelasDinamicas.Domain.deps.json
+C:\Users\pedro\OneDrive\Documentos\Portifolio\TabelasDinamicas\TabelasDinamicas\TabelasDinamicas.Domain\bin\Debug\net7.0\TabelasDinamicas.Domain.dll
+C:\Users\pedro\OneDrive\Documentos\Portifolio\TabelasDinamicas\TabelasDinamicas\TabelasDinamicas.Domain\bin\Debug\net7.0\TabelasDinamicas.Domain.pdb
+C:\Users\pedro\OneDrive\Documentos\Portifolio\TabelasDinamicas\TabelasDinamicas\TabelasDinamicas.Domain\bin\Debug\net7.0\TabelasDinamicas.Core.dll
+C:\Users\pedro\OneDrive\Documentos\Portifolio\TabelasDinamicas\TabelasDinamicas\TabelasDinamicas.Domain\bin\Debug\net7.0\TabelasDinamicas.Core.pdb
+C:\Users\pedro\OneDrive\Documentos\Portifolio\TabelasDinamicas\TabelasDinamicas\TabelasDinamicas.Domain\obj\Debug\net7.0\TabelasDinamicas.Domain.csproj.AssemblyReference.cache
+C:\Users\pedro\OneDrive\Documentos\Portifolio\TabelasDinamicas\TabelasDinamicas\TabelasDinamicas.Domain\obj\Debug\net7.0\TabelasDinamicas.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pedro\OneDrive\Documentos\Portifolio\TabelasDinamicas\TabelasDinamicas\TabelasDinamicas.Domain\obj\Debug\net7.0\TabelasDinamicas.Domain.AssemblyInfoInputs.cache
+C:\Users\pedro\OneDrive\Documentos\Portifolio\TabelasDinamicas\TabelasDinamicas\TabelasDinamicas.Domain\obj\Debug\net7.0\TabelasDinamicas.Domain.AssemblyInfo.cs
+C:\Users\pedro\OneDrive\Documentos\Portifolio\TabelasDinamicas\TabelasDinamicas\TabelasDinamicas.Domain\obj\Debug\net7.0\TabelasDinamicas.Domain.csproj.CoreCompileInputs.cache
+C:\Users\pedro\OneDrive\Documentos\Portifolio\TabelasDinamicas\TabelasDinamicas\TabelasDinamicas.Domain\obj\Debug\net7.0\TabelasDinamicas.Domain.csproj.CopyComplete
+C:\Users\pedro\OneDrive\Documentos\Portifolio\TabelasDinamicas\TabelasDinamicas\TabelasDinamicas.Domain\obj\Debug\net7.0\TabelasDinamicas.Domain.dll
+C:\Users\pedro\OneDrive\Documentos\Portifolio\TabelasDinamicas\TabelasDinamicas\TabelasDinamicas.Domain\obj\Debug\net7.0\refint\TabelasDinamicas.Domain.dll
+C:\Users\pedro\OneDrive\Documentos\Portifolio\TabelasDinamicas\TabelasDinamicas\TabelasDinamicas.Domain\obj\Debug\net7.0\TabelasDinamicas.Domain.pdb
+C:\Users\pedro\OneDrive\Documentos\Portifolio\TabelasDinamicas\TabelasDinamicas\TabelasDinamicas.Domain\obj\Debug\net7.0\ref\TabelasDinamicas.Domain.dll

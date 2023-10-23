@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "TabelasDinamicas.Domain/1.0.0": {
+        "dependencies": {
+          "TabelasDinamicas.Core": "1.0.0"
+        },
+        "runtime": {
+          "TabelasDinamicas.Domain.dll": {}
+        }
+      },
+      "TabelasDinamicas.Core/1.0.0": {
+        "runtime": {
+          "TabelasDinamicas.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TabelasDinamicas.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TabelasDinamicas.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
