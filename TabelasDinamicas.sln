@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TabelasDinamicas.Domain", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TabelasDinamicas.Core", "TabelasDinamicas.Core\TabelasDinamicas.Core.csproj", "{E05D7440-DD68-4213-8778-84F94DE8B567}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TabelasDinamicas.Data", "TabelasDinamicas.Data\TabelasDinamicas.Data.csproj", "{5245BFDD-CF18-4C83-A025-6EEA55BDE0D9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TabelasDinamicas.Data", "TabelasDinamicas.Data\TabelasDinamicas.Data.csproj", "{5245BFDD-CF18-4C83-A025-6EEA55BDE0D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TabelasDinamicas.Application", "TabelasDinamicas.Application\TabelasDinamicas.Application.csproj", "{A2B56492-CD1D-408D-BF3E-413DC16BEBB6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{5245BFDD-CF18-4C83-A025-6EEA55BDE0D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5245BFDD-CF18-4C83-A025-6EEA55BDE0D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5245BFDD-CF18-4C83-A025-6EEA55BDE0D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2B56492-CD1D-408D-BF3E-413DC16BEBB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2B56492-CD1D-408D-BF3E-413DC16BEBB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2B56492-CD1D-408D-BF3E-413DC16BEBB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2B56492-CD1D-408D-BF3E-413DC16BEBB6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
