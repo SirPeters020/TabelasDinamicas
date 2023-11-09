@@ -5,11 +5,20 @@ using System.Text;
 using System.Threading.Tasks;
 using TabelasDinamicas.Application.Service.Interfaces;
 using TabelasDinamicas.Application.ViewModel;
+using TabelasDinamicas.Domain.Interfaces;
 
 namespace TabelasDinamicas.Application.Service
 {
     public class RegistrosViewModel : IRegistrosViewModel
     {
+
+        private readonly IRegistroRepository _repository;
+
+        public RegistrosViewModel(IRegistroRepository repository)
+        {
+            _repository = repository;
+        }
+
         public Task Add(RegistroPostViewModel model)
         {
             throw new NotImplementedException();

@@ -5,11 +5,19 @@ using System.Text;
 using System.Threading.Tasks;
 using TabelasDinamicas.Application.Service.Interfaces;
 using TabelasDinamicas.Application.ViewModel;
+using TabelasDinamicas.Domain.Interfaces;
 
 namespace TabelasDinamicas.Application.Service
 {
     public class TabelasService : ITabelasService
     {
+        private readonly ITabelaRepository _repository;
+
+        public TabelasService(ITabelaRepository repository)
+        {
+            _repository = repository;
+        }
+
         public Task Add(TabelasPostViewModel model)
         {
             throw new NotImplementedException();

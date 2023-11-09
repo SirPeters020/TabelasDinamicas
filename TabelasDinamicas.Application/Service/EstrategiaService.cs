@@ -5,11 +5,19 @@ using System.Text;
 using System.Threading.Tasks;
 using TabelasDinamicas.Application.Service.Interfaces;
 using TabelasDinamicas.Application.ViewModel;
+using TabelasDinamicas.Domain.Interfaces;
 
 namespace TabelasDinamicas.Application.Service
 {
     public class EstrategiaService : IEstrategiaService
     {
+        private readonly IEstrategiaRepository _repository;
+
+        public EstrategiaService(IEstrategiaRepository repository)
+        {
+            _repository = repository;
+        }
+
         public Task Add(EstrategiaPostViewModel model)
         {
             throw new NotImplementedException();
