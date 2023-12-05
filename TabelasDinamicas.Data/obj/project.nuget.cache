@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eTqyC45tsJZDxH+0lRzSA9HruoRsYrQ5d7GuymR9uaksP7/5pP3sgTdkXRHKpvBfwDz7gYPi+FTT5QrHzfCCPQ==",
+  "dgSpecHash": "AyYmQFYt8a9WE1d9buxhDPEbCefwnnVaf8YkkyIJX7y5k9wY/EmDzgk6afAaifnpQfqVTEChR64zKbZXjD2VVQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\pedro\\OneDrive\\Documentos\\Portifolio\\TabelasDinamicas\\TabelasDinamicas\\TabelasDinamicas.Data\\TabelasDinamicas.Data.csproj",
+  "projectFilePath": "C:\\Users\\pedro\\OneDrive\\Documentos\\Portifolio\\Projetos\\TabelasDinamicas\\TabelasDinamicas.Data\\TabelasDinamicas.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pedro\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\pedro\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

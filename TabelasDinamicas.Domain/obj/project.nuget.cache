@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "p2iRGyKcpaFgUC5A+ivI7htZcYbbz/aroHMr19iNhYcFTANruaK3zD05/dNfo9YXtSuJTCqmlwHlN/lYSjuiEw==",
+  "dgSpecHash": "d/3Qccnd90Wgad8IXJAuyagWsHSYO36bDAEBe/bGaSkJiIlckEhQK/7zZhv+VVI6Q2M6VPG5fo+4XMesaWHNRw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\pedro\\OneDrive\\Documentos\\Portifolio\\TabelasDinamicas\\TabelasDinamicas\\TabelasDinamicas.Domain\\TabelasDinamicas.Domain.csproj",
+  "projectFilePath": "C:\\Users\\pedro\\OneDrive\\Documentos\\Portifolio\\Projetos\\TabelasDinamicas\\TabelasDinamicas.Domain\\TabelasDinamicas.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pedro\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.12\\microsoft.entityframeworkcore.7.0.12.nupkg.sha512",
     "C:\\Users\\pedro\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.12\\microsoft.entityframeworkcore.abstractions.7.0.12.nupkg.sha512",

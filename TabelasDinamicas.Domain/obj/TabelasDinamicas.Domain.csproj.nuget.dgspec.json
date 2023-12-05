@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pedro\\OneDrive\\Documentos\\Portifolio\\TabelasDinamicas\\TabelasDinamicas\\TabelasDinamicas.Domain\\TabelasDinamicas.Domain.csproj": {}
+    "C:\\Users\\pedro\\OneDrive\\Documentos\\Portifolio\\Projetos\\TabelasDinamicas\\TabelasDinamicas.Domain\\TabelasDinamicas.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pedro\\OneDrive\\Documentos\\Portifolio\\TabelasDinamicas\\TabelasDinamicas\\TabelasDinamicas.Core\\TabelasDinamicas.Core.csproj": {
+    "C:\\Users\\pedro\\OneDrive\\Documentos\\Portifolio\\Projetos\\TabelasDinamicas\\TabelasDinamicas.Core\\TabelasDinamicas.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pedro\\OneDrive\\Documentos\\Portifolio\\TabelasDinamicas\\TabelasDinamicas\\TabelasDinamicas.Core\\TabelasDinamicas.Core.csproj",
+        "projectUniqueName": "C:\\Users\\pedro\\OneDrive\\Documentos\\Portifolio\\Projetos\\TabelasDinamicas\\TabelasDinamicas.Core\\TabelasDinamicas.Core.csproj",
         "projectName": "TabelasDinamicas.Core",
-        "projectPath": "C:\\Users\\pedro\\OneDrive\\Documentos\\Portifolio\\TabelasDinamicas\\TabelasDinamicas\\TabelasDinamicas.Core\\TabelasDinamicas.Core.csproj",
+        "projectPath": "C:\\Users\\pedro\\OneDrive\\Documentos\\Portifolio\\Projetos\\TabelasDinamicas\\TabelasDinamicas.Core\\TabelasDinamicas.Core.csproj",
         "packagesPath": "C:\\Users\\pedro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pedro\\OneDrive\\Documentos\\Portifolio\\TabelasDinamicas\\TabelasDinamicas\\TabelasDinamicas.Core\\obj\\",
+        "outputPath": "C:\\Users\\pedro\\OneDrive\\Documentos\\Portifolio\\Projetos\\TabelasDinamicas\\TabelasDinamicas.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -69,14 +69,14 @@
         }
       }
     },
-    "C:\\Users\\pedro\\OneDrive\\Documentos\\Portifolio\\TabelasDinamicas\\TabelasDinamicas\\TabelasDinamicas.Domain\\TabelasDinamicas.Domain.csproj": {
+    "C:\\Users\\pedro\\OneDrive\\Documentos\\Portifolio\\Projetos\\TabelasDinamicas\\TabelasDinamicas.Domain\\TabelasDinamicas.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pedro\\OneDrive\\Documentos\\Portifolio\\TabelasDinamicas\\TabelasDinamicas\\TabelasDinamicas.Domain\\TabelasDinamicas.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\pedro\\OneDrive\\Documentos\\Portifolio\\Projetos\\TabelasDinamicas\\TabelasDinamicas.Domain\\TabelasDinamicas.Domain.csproj",
         "projectName": "TabelasDinamicas.Domain",
-        "projectPath": "C:\\Users\\pedro\\OneDrive\\Documentos\\Portifolio\\TabelasDinamicas\\TabelasDinamicas\\TabelasDinamicas.Domain\\TabelasDinamicas.Domain.csproj",
+        "projectPath": "C:\\Users\\pedro\\OneDrive\\Documentos\\Portifolio\\Projetos\\TabelasDinamicas\\TabelasDinamicas.Domain\\TabelasDinamicas.Domain.csproj",
         "packagesPath": "C:\\Users\\pedro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pedro\\OneDrive\\Documentos\\Portifolio\\TabelasDinamicas\\TabelasDinamicas\\TabelasDinamicas.Domain\\obj\\",
+        "outputPath": "C:\\Users\\pedro\\OneDrive\\Documentos\\Portifolio\\Projetos\\TabelasDinamicas\\TabelasDinamicas.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -97,8 +97,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\pedro\\OneDrive\\Documentos\\Portifolio\\TabelasDinamicas\\TabelasDinamicas\\TabelasDinamicas.Core\\TabelasDinamicas.Core.csproj": {
-                "projectPath": "C:\\Users\\pedro\\OneDrive\\Documentos\\Portifolio\\TabelasDinamicas\\TabelasDinamicas\\TabelasDinamicas.Core\\TabelasDinamicas.Core.csproj"
+              "C:\\Users\\pedro\\OneDrive\\Documentos\\Portifolio\\Projetos\\TabelasDinamicas\\TabelasDinamicas.Core\\TabelasDinamicas.Core.csproj": {
+                "projectPath": "C:\\Users\\pedro\\OneDrive\\Documentos\\Portifolio\\Projetos\\TabelasDinamicas\\TabelasDinamicas.Core\\TabelasDinamicas.Core.csproj"
               }
             }
           }

@@ -670,11 +670,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pedro\\OneDrive\\Documentos\\Portifolio\\TabelasDinamicas\\TabelasDinamicas\\TabelasDinamicas.Application\\TabelasDinamicas.Application.csproj",
+      "projectUniqueName": "C:\\Users\\pedro\\OneDrive\\Documentos\\Portifolio\\Projetos\\TabelasDinamicas\\TabelasDinamicas.Application\\TabelasDinamicas.Application.csproj",
       "projectName": "TabelasDinamicas.Application",
-      "projectPath": "C:\\Users\\pedro\\OneDrive\\Documentos\\Portifolio\\TabelasDinamicas\\TabelasDinamicas\\TabelasDinamicas.Application\\TabelasDinamicas.Application.csproj",
+      "projectPath": "C:\\Users\\pedro\\OneDrive\\Documentos\\Portifolio\\Projetos\\TabelasDinamicas\\TabelasDinamicas.Application\\TabelasDinamicas.Application.csproj",
       "packagesPath": "C:\\Users\\pedro\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pedro\\OneDrive\\Documentos\\Portifolio\\TabelasDinamicas\\TabelasDinamicas\\TabelasDinamicas.Application\\obj\\",
+      "outputPath": "C:\\Users\\pedro\\OneDrive\\Documentos\\Portifolio\\Projetos\\TabelasDinamicas\\TabelasDinamicas.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -695,8 +695,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\pedro\\OneDrive\\Documentos\\Portifolio\\TabelasDinamicas\\TabelasDinamicas\\TabelasDinamicas.Domain\\TabelasDinamicas.Domain.csproj": {
-              "projectPath": "C:\\Users\\pedro\\OneDrive\\Documentos\\Portifolio\\TabelasDinamicas\\TabelasDinamicas\\TabelasDinamicas.Domain\\TabelasDinamicas.Domain.csproj"
+            "C:\\Users\\pedro\\OneDrive\\Documentos\\Portifolio\\Projetos\\TabelasDinamicas\\TabelasDinamicas.Domain\\TabelasDinamicas.Domain.csproj": {
+              "projectPath": "C:\\Users\\pedro\\OneDrive\\Documentos\\Portifolio\\Projetos\\TabelasDinamicas\\TabelasDinamicas.Domain\\TabelasDinamicas.Domain.csproj"
             }
           }
         }
