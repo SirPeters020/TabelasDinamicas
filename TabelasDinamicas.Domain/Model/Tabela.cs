@@ -1,5 +1,6 @@
 ﻿using TabelasDinamicas.Core.Domain;
 using TabelasDinamicas.Core.DomainObjects;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace TabelasDinamicas.Domain.Model;
 
@@ -35,6 +36,16 @@ public class Tabela : Entity, EntityBase
         ValorMinimo = valorMinimo;
         Ativa = ativa;
         Responsavel = responsavel;
+        Observacoes = observacoes;
+    }
+
+    public void UpdateTabela(string nome, Guid estrategiaId, decimal valorMinimo, bool ativa, string observacoes)
+    {
+        Nome = nome;
+        Data = DateTime.Now;
+        EstrategiaId = estrategiaId;
+        ValorMinimo = valorMinimo;
+        Ativa = ativa;
         Observacoes = observacoes;
     }
 

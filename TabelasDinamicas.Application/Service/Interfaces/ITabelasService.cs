@@ -12,6 +12,6 @@ namespace TabelasDinamicas.Application.Service.Interfaces
 
         Task Delete(Guid id);
 
-        Task Update(TabelasPostViewModel model);
+        Task Update(TabelasPostViewModel model, Guid id);
     }
 }

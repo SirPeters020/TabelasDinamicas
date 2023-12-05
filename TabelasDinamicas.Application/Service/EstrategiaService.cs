@@ -1,46 +1,61 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using AutoMapper;
 using TabelasDinamicas.Application.Service.Interfaces;
 using TabelasDinamicas.Application.ViewModel;
 using TabelasDinamicas.Domain.Interfaces;
+using TabelasDinamicas.Domain.Model;
 
 namespace TabelasDinamicas.Application.Service
 {
     public class EstrategiaService : IEstrategiaService
     {
         private readonly IEstrategiaRepository _repository;
+        private readonly IMapper _mapper;
 
-        public EstrategiaService(IEstrategiaRepository repository)
+        public EstrategiaService(IEstrategiaRepository repository, IMapper mapper)
         {
             _repository = repository;
+            _mapper = mapper;
         }
 
-        public Task Add(EstrategiaPostViewModel model)
+        public async Task Add(EstrategiaPostViewModel model)
         {
-            throw new NotImplementedException();
+            var estrategia = _mapper.Map<Estrategia>(model);
+
+            await _repository.AddAsync(estrategia);
+
+            await _repository.UnitOfWork.CommitAsync();
         }
 
-        public Task Delete(Guid id)
+        public async Task Delete(Guid id)
         {
-            throw new NotImplementedException();
+            await _repository.DeleteAsync(id);
+
+            await _repository.UnitOfWork.CommitAsync();
         }
 
-        public Task<EstrategiaViewModel> Get(Guid id)
+        public async Task<EstrategiaViewModel> Get(Guid id)
         {
-            throw new NotImplementedException();
+            var estrategia = await _repository.GetAsync(id);
+
+            return _mapper.Map<EstrategiaViewModel>(estrategia);
         }
 
-        public Task<IEnumerable<EstrategiaViewModel>> Get()
+        public async Task<IEnumerable<EstrategiaViewModel>> Get()
         {
-            throw new NotImplementedException();
+            var estrategias = await _repository.GetAsync();
+
+            return _mapper.Map<IEnumerable<EstrategiaViewModel>>(estrategias);
         }
 
-        public Task Update(EstrategiaPostViewModel model)
+        public async Task Update(EstrategiaPostViewModel model, Guid id)
         {
-            throw new NotImplementedException();
+            var estrategiaBase = await _repository.GetAsync(id);
+
+            estrategiaBase.UpdateEstrategia(model.Nome, model.Descricao, model.Responsavel);
+
+            await _repository.UpdateAsync(estrategiaBase);
+
+            await _repository.UnitOfWork.CommitAsync();
         }
     }
 }

@@ -33,6 +33,15 @@ public class Registros : Entity, EntityBase
 
     public List<ComplementoRegistro> ComplementoRegistro { get; private set; }
 
+    public void Update(QuantidadeValor? quantidade, string observacoes)
+    {
+        Quantidade = quantidade;
+        Observacoes = observacoes;
+        DataAtualizacao = DateTime.Now;
+    }
+
+
+
     #endregion
 
 }

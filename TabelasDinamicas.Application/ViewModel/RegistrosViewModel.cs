@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace TabelasDinamicas.Application.ViewModel
+﻿namespace TabelasDinamicas.Application.ViewModel
 {
     public class RegistrosViewModel
     {
@@ -47,8 +41,8 @@ namespace TabelasDinamicas.Application.ViewModel
         public string Responsavel { get; set; }
         public string ResponsavelId { get; set; }
 
-        public string Quantidade { get; set; }
-        public string Valor { get; set; }
+        public decimal Quantidade { get; set; }
+        public decimal Valor { get; set; }
 
         public string Observacoes { get; set; }
 

@@ -1,46 +1,60 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using AutoMapper;
 using TabelasDinamicas.Application.Service.Interfaces;
 using TabelasDinamicas.Application.ViewModel;
 using TabelasDinamicas.Domain.Interfaces;
+using TabelasDinamicas.Domain.Model;
 
-namespace TabelasDinamicas.Application.Service
+namespace TabelasDinamicas.Application.Service;
+
+public class TabelasService : ITabelasService
 {
-    public class TabelasService : ITabelasService
+    private readonly ITabelaRepository _repository;
+    private readonly IMapper _mapper;
+
+    public TabelasService(ITabelaRepository repository, IMapper mapper)
     {
-        private readonly ITabelaRepository _repository;
+        _repository = repository;
+        _mapper = mapper;
+    }
 
-        public TabelasService(ITabelaRepository repository)
-        {
-            _repository = repository;
-        }
+    public async Task Add(TabelasPostViewModel model)
+    {
+        var tabela = _mapper.Map<Tabela>(model);
 
-        public Task Add(TabelasPostViewModel model)
-        {
-            throw new NotImplementedException();
-        }
+        await _repository.AddAsync(tabela);
 
-        public Task Delete(Guid id)
-        {
-            throw new NotImplementedException();
-        }
+        await _repository.UnitOfWork.CommitAsync();
+    }
 
-        public Task<TabelasViewModel> Get(Guid id)
-        {
-            throw new NotImplementedException();
-        }
+    public async Task Delete(Guid id)
+    {
+        await _repository.DeleteAsync(id);
 
-        public Task<IEnumerable<TabelasViewModel>> Get()
-        {
-            throw new NotImplementedException();
-        }
+        await _repository.UnitOfWork.CommitAsync();
+    }
 
-        public Task Update(TabelasPostViewModel model)
-        {
-            throw new NotImplementedException();
-        }
+    public async Task<TabelasViewModel> Get(Guid id)
+    {
+        var tabela = await _repository.GetAsync(id);
+
+        return _mapper.Map<TabelasViewModel>(tabela);
+    }
+
+    public async Task<IEnumerable<TabelasViewModel>> Get()
+    {
+        var tabela = await _repository.GetAsync();
+
+        return _mapper.Map<IEnumerable<TabelasViewModel>>(tabela);
+    }
+
+    public async Task Update(TabelasPostViewModel model, Guid id)
+    {
+        var tabela = await _repository.GetAsync(id);
+
+        tabela.UpdateTabela(model.Nome, model.EstrategiaId, model.ValorMinimo, model.Ativa, model.Observacoes);
+
+        await _repository.UpdateAsync(tabela);
+
+        await _repository.UnitOfWork.CommitAsync();
     }
 }
