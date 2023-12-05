@@ -3,10 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using TabelasDinamicas.Core.Domain;
+using TabelasDinamicas.Core.DomainObjects;
 
 namespace TabelasDinamicas.Domain.Model;
 
-public class ComplementoRegistro
+public class ComplementoRegistro : Entity, EntityBase
 {
     public Guid RegistroId { get; private set; }
 

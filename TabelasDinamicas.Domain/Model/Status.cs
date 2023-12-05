@@ -3,11 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using TabelasDinamicas.Core.Domain;
 using TabelasDinamicas.Core.DomainObjects;
 
 namespace TabelasDinamicas.Domain.Model
 {
-    public class Status
+    public class Status : Entity, EntityBase
     {
         public string Nome { get; private set; }
         public bool Ativo { get; private set; }

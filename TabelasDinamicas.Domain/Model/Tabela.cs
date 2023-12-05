@@ -1,8 +1,10 @@
-﻿using TabelasDinamicas.Core.DomainObjects;
+﻿using TabelasDinamicas.Core.Domain;
+using TabelasDinamicas.Core.DomainObjects;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace TabelasDinamicas.Domain.Model;
 
-public class Tabela : Entity
+public class Tabela : Entity, EntityBase
 {
     public string Nome { get; private set; }
 
@@ -22,7 +24,7 @@ public class Tabela : Entity
 
     private readonly List<ComplementoTabela> _complementoTabela;
 
-    public IReadOnlyCollection<ComplementoTabela> CampanhaFase => _complementoTabela;
+    public IReadOnlyCollection<ComplementoTabela> ComplementoTabela => _complementoTabela;
 
     protected Tabela() => _complementoTabela = new List<ComplementoTabela>();
 
@@ -34,6 +36,16 @@ public class Tabela : Entity
         ValorMinimo = valorMinimo;
         Ativa = ativa;
         Responsavel = responsavel;
+        Observacoes = observacoes;
+    }
+
+    public void UpdateTabela(string nome, Guid estrategiaId, decimal valorMinimo, bool ativa, string observacoes)
+    {
+        Nome = nome;
+        Data = DateTime.Now;
+        EstrategiaId = estrategiaId;
+        ValorMinimo = valorMinimo;
+        Ativa = ativa;
         Observacoes = observacoes;
     }
 

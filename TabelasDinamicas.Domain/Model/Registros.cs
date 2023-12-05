@@ -1,13 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using TabelasDinamicas.Core.Domain;
+using TabelasDinamicas.Core.DomainObjects;
 using TabelasDinamicas.Domain.ValueObject;
 
 namespace TabelasDinamicas.Domain.Model;
 
-public class Registros
+public class Registros : Entity, EntityBase
 {
 
     #region [ Propriedades ]
@@ -24,8 +21,6 @@ public class Registros
 
     public QuantidadeValor? Quantidade { get; private set; }
 
-    public decimal Pl { get; private set; }
-
     public string Observacoes { get; private set; }
 
     public DateTime? DataAtualizacao { get; private set; }
@@ -37,6 +32,15 @@ public class Registros
     public Status Status { get; private set; }
 
     public List<ComplementoRegistro> ComplementoRegistro { get; private set; }
+
+    public void Update(QuantidadeValor? quantidade, string observacoes)
+    {
+        Quantidade = quantidade;
+        Observacoes = observacoes;
+        DataAtualizacao = DateTime.Now;
+    }
+
+
 
     #endregion
 

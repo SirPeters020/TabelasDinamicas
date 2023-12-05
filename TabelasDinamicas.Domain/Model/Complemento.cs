@@ -1,8 +1,9 @@
-﻿using TabelasDinamicas.Core.DomainObjects;
+﻿using TabelasDinamicas.Core.Domain;
+using TabelasDinamicas.Core.DomainObjects;
 
 namespace TabelasDinamicas.Domain.Model;
 
-public class Complemento : Entity
+public class Complemento : Entity, EntityBase
 {
     public string Nome { get; private set; }
 
