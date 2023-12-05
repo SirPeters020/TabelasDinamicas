@@ -18,4 +18,11 @@ public class Estrategia : Entity, EntityBase
         Descricao = descricao;
         Responsavel = responsavel;
     }
+
+    public void UpdateEstrategia(string nome, string descricao, string responsavel)
+    {
+        Nome = nome;
+        Descricao = descricao;
+        Responsavel = responsavel;
+    }
 }

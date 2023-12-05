@@ -31,6 +31,10 @@ namespace TabelasDinamicas.Core.Data.Repository
 
         IEnumerable<T> Get();
 
+        T Get(Guid id);
+
+        Task<T> GetAsync(Guid id);
+
         Task<IEnumerable<T>> GetAsync();
 
     }

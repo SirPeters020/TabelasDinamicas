@@ -65,6 +65,10 @@ public class RepositoryBasic<T> : IRepositoryBasic<T> where T : class, EntityBas
 
     public IEnumerable<T> Get() => _dbSet.ToList();
 
+    public T Get(Guid id) => _dbSet.Find(id);
+
+    public async Task<T> GetAsync(Guid id) => await _dbSet.FindAsync(id);
+
     public async Task<IEnumerable<T>> GetAsync() => await _dbSet.ToListAsync();
 
     public void Update(T item)

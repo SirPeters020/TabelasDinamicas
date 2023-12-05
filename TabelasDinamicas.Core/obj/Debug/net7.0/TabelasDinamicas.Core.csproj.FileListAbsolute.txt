@@ -9,3 +9,4 @@ C:\Users\pedro\OneDrive\Documentos\Portifolio\TabelasDinamicas\TabelasDinamicas\
 C:\Users\pedro\OneDrive\Documentos\Portifolio\TabelasDinamicas\TabelasDinamicas\TabelasDinamicas.Core\obj\Debug\net7.0\refint\TabelasDinamicas.Core.dll
 C:\Users\pedro\OneDrive\Documentos\Portifolio\TabelasDinamicas\TabelasDinamicas\TabelasDinamicas.Core\obj\Debug\net7.0\TabelasDinamicas.Core.pdb
 C:\Users\pedro\OneDrive\Documentos\Portifolio\TabelasDinamicas\TabelasDinamicas\TabelasDinamicas.Core\obj\Debug\net7.0\ref\TabelasDinamicas.Core.dll
+C:\Users\pedro\OneDrive\Documentos\Portifolio\TabelasDinamicas\TabelasDinamicas\TabelasDinamicas.Core\obj\Debug\net7.0\TabelasDinamicas.Core.csproj.AssemblyReference.cache

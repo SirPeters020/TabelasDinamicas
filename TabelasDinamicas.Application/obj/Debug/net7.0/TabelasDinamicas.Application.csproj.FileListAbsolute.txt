@@ -1,0 +1,5 @@
+C:\Users\pedro\OneDrive\Documentos\Portifolio\TabelasDinamicas\TabelasDinamicas\TabelasDinamicas.Application\obj\Debug\net7.0\TabelasDinamicas.Application.csproj.AssemblyReference.cache
+C:\Users\pedro\OneDrive\Documentos\Portifolio\TabelasDinamicas\TabelasDinamicas\TabelasDinamicas.Application\obj\Debug\net7.0\TabelasDinamicas.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pedro\OneDrive\Documentos\Portifolio\TabelasDinamicas\TabelasDinamicas\TabelasDinamicas.Application\obj\Debug\net7.0\TabelasDinamicas.Application.AssemblyInfoInputs.cache
+C:\Users\pedro\OneDrive\Documentos\Portifolio\TabelasDinamicas\TabelasDinamicas\TabelasDinamicas.Application\obj\Debug\net7.0\TabelasDinamicas.Application.AssemblyInfo.cs
+C:\Users\pedro\OneDrive\Documentos\Portifolio\TabelasDinamicas\TabelasDinamicas\TabelasDinamicas.Application\obj\Debug\net7.0\TabelasDinamicas.Application.csproj.CoreCompileInputs.cache
